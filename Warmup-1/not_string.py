@@ -1,7 +1,7 @@
 str = 'candy'
 def not_string(str):
   if str[0:3] == 'not' :
-    print(str)
+    return str
   else :
-    print('not',str)
+    return 'not '+ str)
 not_string('not bad')
